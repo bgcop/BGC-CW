@@ -1,0 +1,39 @@
+void, 	undo, 	null, 	Undo
+void, 	redo, 	null, 	Redo
+void, 	ShowSliceView, 	null, 	View Slice display
+void, 	ShowGCodeView, 	null, 	View GCode display
+void, 	ClickViewConfMachine, 	null, 	View Machine Configuration
+void, 	ClickViewSliceConfig, 	null, 	View Slicing Configuration
+void, 	cmdLogGcode, 	System.String, 	Log all commands sent to machine
+void, 	MCCmdSetZDist, 	System.Double, 	Set distanse (zdist) in mm for manual up/down movement
+void, 	MCCmdSetZRate, 	System.Double, 	Set rate in mm/m for manual up/down movement
+void, 	MCCmdSetXYRate, 	System.Double, 	Set rate in mm/m for manual left/right/front/back movement
+void, 	MCCmdMoveUp, 	null, 	Move print head up zdist amount
+void, 	MCCmdMoveDown, 	null, 	Move print head down zdist amount
+void, 	MCCmdMoveX, 	System.Double, 	Move the X-axis specified amount
+void, 	MCCmdXHome, 	null, 	Move the X-axis to the home position
+void, 	MCCmdMoveY, 	System.Double, 	Move the Y-axis specified amount
+void, 	MCCmdYHome, 	null, 	Move the Y-axis to the home position
+void, 	MCCmdMoveZ, 	System.Double, 	Move the Z-axis specified amount
+void, 	MCCmdExtrude, 	System.Double, 	Move the E-axis specified amount
+void, 	MCCmdZHome, 	null, 	Move the Z-axis to the home position
+void, 	MCCmdAllHome, 	null, 	Move all axis to the home position
+void, 	MCCmdMotorOn, 	null, 	Turn motors ON
+void, 	MCCmdMotorOff, 	null, 	Turn motors OFF
+void, 	MCCmdShutterOpen, 	null, 	Open Shutter
+void, 	MCCmdShutterClose, 	null, 	Close Shutter
+System.Double, 	MCCmdGetZRate, 	null, 	Get Z-axis movement rate
+System.Double, 	MCCmdGetXYRate, 	null, 	Get XY-axis movement rate
+void, 	ClickSwitchTabView, 	null, 	Switch Tab Display
+void, 	ClickView3d, 	null, 	Switch Tab Display
+void, 	ClickViewSlice, 	null, 	Switch Tab Display
+void, 	ClickViewConfig, 	null, 	Switch Tab Display
+void, 	ClickExpandLeft, 	null, 	Expand / retract left panel
+void, 	LoadSTLModel_Click, 	null, 	Load Model
+void, 	ConnectPrinter, 	null, 	Connect to the printer
+void, 	DisconnectPrinter, 	null, 	Disconnect from the printer
+void, 	StartPrint, 	null, 	Begin printing scene
+void, 	PausePrint, 	null, 	Pause printing
+void, 	StopPrint, 	null, 	Stop printing process
+void, 	StartSlice, 	null, 	Start Slicing
+void, 	GMActivateTab, 	System.String[], 	GUI Tab Activation <ctlTabItem> <ctlTabContent>

@@ -1,0 +1,971 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="administrator_refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_uparrown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_uparrown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\slice.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_star.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelOutline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\SelOutline.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pyramid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\pyramid.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttMirror" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttMirror.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\play.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttPCylinder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttPCylinder.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_arrow_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_arrow_right.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttShowslice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttShowslice.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_add.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\pause.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_lock_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_lock_open.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="play_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\play_pause.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cwtexture1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\cwtexture1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Save_icon__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Save-icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_star.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cwlogo_round" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\cwlogo_round.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Splash1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Splash1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Up1Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\IconsLandVistaArrowIconsDemo\PNG\64x64\Up1Blue.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttChecked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttChecked.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_binoculars" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_binoculars.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_cancel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open_Folder_Add_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Open-Folder-Add-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="terminal2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\terminal2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bfzn_003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\021\bfzn_003.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_z2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_z2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Disconnect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\021\Disconnect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_info.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttGoZHome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttGoZHome.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttSupBase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttSupBase.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_star.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_checkmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_checkmark.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttTreeview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttTreeview.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttMmInch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttMmInch.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttOpenFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttOpenFile.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttPCone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttPCone.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_lock_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_lock_open.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_cancel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paypal-donate-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\paypal-donate-button.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_close.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttAddSupport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttAddSupport.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="technical_wrench" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\technical_wrench.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3diso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3diso.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_cross.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_reload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_reload.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_add.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_clock.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_star.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3dFront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3dFront.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttPause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttPause.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_lock_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_lock_open.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open_Folder_Graphite_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Open-Folder-Graphite-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttMeshTools" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttMeshTools.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drawing_board" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\drawing_board.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_pyramid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_pyramid.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttRotate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttRotate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttOpenClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttOpenClose.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Up1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\IconsLandVistaArrowIconsDemo\PNG\64x64\Up1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cwtexture1_index" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\cwtexture1_index.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1255</value>
+  </data>
+  <data name="checkRect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\checkRect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_lock_closed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_lock_closed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_pencil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_pencil.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_px3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_px3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_arrow_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_arrow_down.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttV.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3dRIGHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3dRIGHT.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttMove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttMove.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_close.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_reload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_reload.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_diskette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_diskette.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_arrow_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_arrow_right.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttViewDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttViewDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttPTorus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttPTorus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_clock.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Down1Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\IconsLandVistaArrowIconsDemo\PNG\64x64\Down1Blue.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_help.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_gear.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttStateTrig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttStateTrig.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\folder.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoom_out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zoom_out.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_close.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power_iconoff32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\power-iconoff32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttProjOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttProjOn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttStop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttStop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_cross.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_trcorner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_trcorner.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_lock_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_lock_open.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrowhead_left_refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\arrowhead_left_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttSave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttSave.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_clock.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\copy_add.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_pyramid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_pyramid.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_diskette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_diskette.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttAutoSupport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttAutoSupport.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_arrow_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_arrow_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_arrow_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_arrow_left.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttSubtract" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttSubtract.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoom_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zoom_in.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arial18_metrics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Arial18_metrics.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="administrator_arrow_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_arrow_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttPrevDisp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttPrevDisp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drawing_board_clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\drawing_board_clock.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\stop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttConsole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttConsole.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttTransparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttTransparent.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_arrow_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_arrow_down.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_arrow_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_arrow_right.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drawing_board_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\drawing_board_close.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttScene" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttScene.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trash_can" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\trash_can.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="autoposition16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\autoposition16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttSupport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttSupport.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_checkmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_checkmark.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttView.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_px0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_px0.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_info.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drawing_board_checkmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\drawing_board_checkmark.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttAutoDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttAutoDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttDownward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttDownward.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animatedTurningHelix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\animatedTurningHelix.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="connect1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\connect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_diskette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_diskette.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_z0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_z0.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttSendGcode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttSendGcode.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttConnect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttConnect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_z3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_z3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttShowsliceh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttShowsliceh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="butMinus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\butMinus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_zoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_zoom.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3dHome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3dHome.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="move_bgnd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\move_bgnd.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power_iconoff48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\power-iconoff48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttModifySupport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttModifySupport.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_arrow_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_arrow_down.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bfzn_004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\021\bfzn_004.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_help.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_pyramid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_pyramid.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="donate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\donate.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_zoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_zoom.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttUnion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttUnion.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttInchMm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttInchMm.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_arrow_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_arrow_left.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power_icon48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\power-icon48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_delete.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrowhead_down_refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\arrowhead_down_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_zoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_zoom.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_arrow_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_arrow_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_centn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_centn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3dUP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3dUP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_lock_closed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_lock_closed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_checkmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_checkmark.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttOnPlatform" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttOnPlatform.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttScale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttScale.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_reload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_reload.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_gear.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttSlice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttSlice.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttViewSlice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttViewSlice.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttGear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttGear.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttHomeZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttHomeZ.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open_Folder_Add_icon__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Open-Folder-Add-icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_shuttclose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_shuttclose.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrows-Right-Circular-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Arrows-Right-Circular-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_onoff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_onoff.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttMachineControl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttMachineControl.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttX.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="briefcase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\briefcase.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttIntersect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttIntersect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttPCube" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttPCube.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_clock.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_zoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_zoom.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttProjector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttProjector.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_px1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_arrow_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_arrow_right.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_pyramid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_pyramid.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_ztop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_ztop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_lock_closed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_lock_closed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="niceAnimatedTriangles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\niceAnimatedTriangles.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="splash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Splash1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttViewGcode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttViewGcode.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="position" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\position.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttViewModel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttViewModel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_info.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_delete.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttArrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttArrange.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_onoffslide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_onoffslide.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_delete.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_info.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="node" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\node.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Right1Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\IconsLandVistaArrowIconsDemo\PNG\64x64\Right1Blue.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo_BGC_SMART_TECHBPQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Logo BGC SMART TECHBPQ.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\gear.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Left1Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\IconsLandVistaArrowIconsDemo\PNG\64x64\Left1Blue.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_cent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_cent.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttOinfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttOinfo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_red_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\folder-red-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_lock_closed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_lock_closed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_shuttopen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_shuttopen.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diskette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\diskette.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_delete.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttCenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttCenter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttPlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttPlay.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_close.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_cross.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bfzn_006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\021\bfzn_006.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_arrow_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_arrow_left.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttPSphere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttPSphere.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cwlogo_dl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\cwlogo_dl.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_pencil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_pencil.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_onoffbgnd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_onoffbgnd.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_binoculars" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_binoculars.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="briefcase_pyramid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\briefcase_pyramid.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_add.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_arrow_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_arrow_down.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_help.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrowhead_down_star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\arrowhead_down_star.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttUndo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttUndo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_gear.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttSliceConf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttSliceConf.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_uparrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_uparrow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_cancel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GuiConfig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\GuiConfig.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="mc_z1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_z1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttProjOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttProjOff.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Save_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Save-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="treasure_chest2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\treasure_chest2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttTemperature" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttTemperature.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_cross.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disconnect_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\disconnect_add.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power_icon32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\power-icon32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_diskette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_diskette.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttDisconnect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttDisconnect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disconnect1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\disconnect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="history3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\history3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_arrow_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_arrow_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_binoculars" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_binoculars.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttPlus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_add.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aim_binoculars" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aim_binoculars.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelShaded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\SelShaded.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_home.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="broadband" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\broadband.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_cancel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="homeButt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\homeButt.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_px2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drawing_board_arrow_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\drawing_board_arrow_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_temper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_temper.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Down1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\IconsLandVistaArrowIconsDemo\PNG\64x64\Down1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_gear.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_arrow_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_arrow_left.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_pencil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_pencil.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="turningGear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\turningGear.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drawing_board_arrow_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\drawing_board_arrow_down.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Donate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Donate1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Connect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\021\Connect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttZeroZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttZeroZ.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rounded_blue_home_button_4805" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\rounded_blue_home_button_4805.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttBoundingBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttBoundingBox.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disconnect_cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\disconnect_cross.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="geothermal_power_plant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\geothermal_power_plant.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d_reload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\3d_reload.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Load" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Load.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_pencil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_pencil.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Refresh-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\021\Refresh-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttMachineConfig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttMachineConfig.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="move" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\021\move.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buddhist_temple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\buddhist_temple.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttRedo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\CustomGUI\buttRedo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blur_help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blur_help.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_tpoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\MachineControl\mc_tpoint.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_checkmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrator_checkmark.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Arrows-Left-Circular-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Arrows-Left-Circular-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GuiConfig FileVersion="1">
+  <buttons>
+    <style forecolor="#ffdcdcdc" backcolor="RoyalBlue" gl="False" checkcolor="#ffdcdcdc" hovercolor="White" presscolor="White" nimages="1" pressscale="92" />
+    <style name="glbutt1" forecolor="Navy" backcolor="Transparent" gl="True" checkcolor="Navy" hovercolor="Navy" presscolor="White" nimages="1" hoverscale="106" />
+    <button name="home" dock="tr" x="10" y="100" w="48" h="48" style="glbutt1" image="glButtHome1" />
+    <button name="top" dock="tr" x="10" y="160" w="48" h="48" style="glbutt1" image="glTopView" />
+    <button name="undo" dock="tl" x="10" y="30" w="48" h="48" image="buttUndo" />
+    <button name="redo" dock="tl" x="60" y="30" w="48" h="48" image="buttRedo" />
+  </buttons>
+  <controls>
+    <style forecolor="#ffdcdcdc" backcolor="Navy" framecolor="RoyalBlue" gl="False" checkcolor="#ffdcdcdc" hovercolor="White" presscolor="White" nimages="1" bgndimage="cwpanel" pressscale="92" panelpad="2" />
+    <style name="TopBars" forecolor="#ffdcdcdc" backcolor="RoyalBlue" checkcolor="#ffdcdcdc" hovercolor="White" presscolor="White" nimages="1" pressscale="92" />
+    <style name="SideBars" forecolor="White" backcolor="RoyalBlue" applysubcontrols="False" />
+    <style name="Windows" applysubcontrols="True" />
+    <style name="gltext1" forecolor="White" backcolor="Transparent" gl="True" />
+    <control name="pmove" x="20" y="90" />
+    <control name="pscale" x="20" y="90" />
+    <control name="protate" x="20" y="90" />
+    <control name="psupport" x="20" y="90" />
+    <control name="pviewopts" x="20" y="90" />
+    <control name="pconfig" x="20" y="90" />
+    <control name="pmeshtools" x="20" y="90" />
+    <control name="pscenetree" x="20" y="90" />
+    <control name="pobjectinf" x="20" y="90" />
+    <control name="pmachinecontrol" x="20" y="90" />
+    <control name="pmanualgcode" x="20" y="90" />
+    <control name="pprojectorcontrol" x="20" y="90" />
+    <control name="clayerscroll" x="55" y="115" />
+    <control name="clayernum" x="20" y="440" />
+    <control name="clayerZ" x="20" y="465" />
+    <control name="progress" x="10" y="80" style="gltext1" />
+    <control name="mainmsg" x="100" y="8" w="400" style="gltext1" />
+    <control name="timemsg" x="100" y="34" w="400" style="gltext1" />
+    <control name="pnlTopIconsMain" style="TopBars" />
+    <control name="pnlTopTabs" style="SideBars" />
+    <control name="pnlRightBar" style="SideBars" />
+    <control name="pnlLeftBar" style="SideBars" />
+  </controls>
+  <decals>
+    <bar dock="nc" tlcolor="AliceBlue" trcolor="AliceBlue" blcolor="LightBlue" brcolor="SkyBlue" level="background" />
+    <image image="cwlogo_tr" dock="tr" x="0" y="0" />
+  </decals>
+  <layouts />
+  <sequences />
+</GuiConfig>

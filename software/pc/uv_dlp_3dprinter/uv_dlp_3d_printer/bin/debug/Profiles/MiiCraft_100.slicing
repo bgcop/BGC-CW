@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SliceBuildConfig FileVersion="2">
+  <DotsPermmX>102.4</DotsPermmX>
+  <DotsPermmY>76.8</DotsPermmY>
+  <XResolution>1024</XResolution>
+  <YResolution>768</YResolution>
+  <BlankTime>6000</BlankTime>
+  <PlatformTemp>75</PlatformTemp>
+  <ExportSVG>0</ExportSVG>
+  <Export>False</Export>
+  <ExportPNG>False</ExportPNG>
+  <XOffset>0</XOffset>
+  <YOffset>0</YOffset>
+  <Direction>Bottom_Up</Direction>
+  <LiftDistance>5</LiftDistance>
+  <SlideTiltValue>0</SlideTiltValue>
+  <AntiAliasing>False</AntiAliasing>
+  <UseMainLiftGCode>False</UseMainLiftGCode>
+  <AntiAliasingValue>1.5</AntiAliasingValue>
+  <LiftFeedRate>50</LiftFeedRate>
+  <LiftRetractRate>100</LiftRetractRate>
+  <ExportOption>ZIP</ExportOption>
+  <FlipX>False</FlipX>
+  <FlipY>False</FlipY>
+  <Notes>
+  </Notes>
+  <GCodeHeader>;********** Header Start ********
+M800 T0 a ; goto home position
+; give it 10 seconds to move to the home position - may need to be adjusted
+;&lt;Delay&gt; 10000
+M800 T0 b ; goto print position
+; give it 10 seconds to move to the print position - may need to be adjusted
+;&lt;Delay&gt; 10000
+;********** Header End **********
+</GCodeHeader>
+  <GCodeFooter>;********** Footer Start ********
+;Here you can set any G or M-Code which should be executed after the last Layer is Printed
+;&lt;Completed&gt;
+;********** Footer End ********
+</GCodeFooter>
+  <GCodePreslice>;********** Pre-Slice Start ********
+;Set up any GCode here to be executed before a lift
+M800 T0 r; turn on projector LEDS
+;********** Pre-Slice End **********
+</GCodePreslice>
+  <GCodeLift>;********** Lift Sequence ********
+M800 T0 s; turn off projector LEDS
+M800 T0 g; pump resin
+M800 T0 d; move 100 microns
+;&lt;Delay&gt; %d$BlankTime
+;********** Lift Sequence **********
+</GCodeLift>
+  <SelectedInk>Default</SelectedInk>
+  <InkConfig>
+    <Name>Default</Name>
+    <SliceHeight>0.100000001490116</SliceHeight>
+    <LayerTime>7000</LayerTime>
+    <FirstLayerTime>10000</FirstLayerTime>
+    <NumberofBottomLayers>3</NumberofBottomLayers>
+    <ResinPriceL>0</ResinPriceL>
+  </InkConfig>
+  <MinTestExposure>500</MinTestExposure>
+  <TestExposureStep>200</TestExposureStep>
+</SliceBuildConfig>

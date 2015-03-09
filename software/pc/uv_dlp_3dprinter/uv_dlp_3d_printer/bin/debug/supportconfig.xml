@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SupportConfig FileVersion="1">
+  <XSpace>5</XSpace>
+  <YSpace>5</YSpace>
+  <MinAdaptiveGap>5</MinAdaptiveGap>
+  <HeadTopRadiusMM>0.200000002980232</HeadTopRadiusMM>
+  <HeadBottomRadiusMM>0.5</HeadBottomRadiusMM>
+  <FootTopRadiusMM>0.5</FootTopRadiusMM>
+  <FootBottomRadiusMM>2</FootBottomRadiusMM>
+  <FootBottomIntraRadiusMM>0.200000002980232</FootBottomIntraRadiusMM>
+  <DownwardAngle>45</DownwardAngle>
+  <GenerateOnDownward>False</GenerateOnDownward>
+</SupportConfig>
