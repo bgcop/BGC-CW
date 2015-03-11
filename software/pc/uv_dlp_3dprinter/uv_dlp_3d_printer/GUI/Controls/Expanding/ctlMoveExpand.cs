@@ -182,5 +182,43 @@ namespace UV_DLP_3D_Printer.GUI.CustomGUI.Expanding
         {
 
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+          //mirror ejex
+          var o = UVDLPApp.Instance().SelectedObject;
+          if (o != null)
+          {
+            o.Scale(-1.0f, 1.0f, 1.0f);
+            o.FlipWinding();
+            o.Update();
+          }
+          UVDLPApp.Instance().RaiseAppEvent(eAppEvent.eReDraw, "");
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+          //mirror eje y
+          var o = UVDLPApp.Instance().SelectedObject;
+          if (o != null)
+          {
+            o.Scale(1.0f, -1.0f, 1.0f);
+            o.FlipWinding();
+            o.Update();
+          }
+          UVDLPApp.Instance().RaiseAppEvent(eAppEvent.eReDraw, "");
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+          Object3d o = UVDLPApp.Instance().SelectedObject;
+          if (o != null)
+          {
+            o.Scale(1.0f, 1.0f, -1.0f);
+            o.FlipWinding();
+            o.Update();
+          }
+          UVDLPApp.Instance().RaiseAppEvent(eAppEvent.eReDraw, "");
+        }
     }
 }

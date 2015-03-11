@@ -71,6 +71,7 @@ namespace UV_DLP_3D_Printer.GUI
             ctl3DView1.UpdateView(); // initial update
             ctl3DView1.RearrangeGui();
             ctl3DView1.Enable3dView(true);
+            UVDLPApp.Instance().AppEvent += new AppEventDelegate(AppEventDel);
         }
 
         private void CwMainForm_Load(object sender, EventArgs e)
@@ -120,7 +121,135 @@ namespace UV_DLP_3D_Printer.GUI
             }
         }
 
-       
+        public void SetTitle()
+        {
+
+          this.Text = m_appname + " - " + "  ( Slice Profile : ";
+          this.Text += Path.GetFileNameWithoutExtension(UVDLPApp.Instance().m_buildparms.m_filename);
+          this.Text += ", Machine : " + Path.GetFileNameWithoutExtension(UVDLPApp.Instance().m_printerinfo.m_filename);// +")";
+          this.Text += ", Scene : " + Path.GetFileNameWithoutExtension(UVDLPApp.Instance().SceneFileName) + ")";
+
+        }
+        private void UpdateSceneInfo()
+        {
+          try
+          {
+            //ctl3DView1.UpdateObjectInfo();
+            UVDLPApp.Instance().RaiseAppEvent(eAppEvent.eReDraw, "redraw");
+            ctl3DView1.UpdateView();
+          }
+          catch (Exception) { }
+
+        }
+        private void AppEventDel(eAppEvent ev, String Message)
+        {
+          try
+          {
+            if (InvokeRequired)
+            {
+              BeginInvoke(new MethodInvoker(delegate() { AppEventDel(ev, Message); }));
+            }
+            else
+            {
+              switch (ev)
+              {
+                case eAppEvent.eModelNotLoaded:
+                  DebugLogger.Instance().LogRecord(Message);
+                  break;
+
+                case eAppEvent.eModelRemoved:
+                  //the current model was removed
+                  DebugLogger.Instance().LogRecord(Message);
+                  //UpdateSceneInfo();
+                  UVDLPApp.Instance().m_engine3d.UpdateLists();
+                  ctl3DView1.UpdateView();
+                  break;
+                case eAppEvent.eModelAdded:
+                  //UpdateSceneInfo();
+                  UVDLPApp.Instance().m_engine3d.UpdateLists();
+                  //DisplayFunc();
+                  ctl3DView1.UpdateView();
+                  DebugLogger.Instance().LogRecord(Message);
+                  break;
+                case eAppEvent.eUpdateSelectedObject:
+                  UpdateSceneInfo();
+                  //ctl3DView1.UpdateView();
+                  break;
+                case eAppEvent.eShowLogWindow:
+                  bool vis = bool.Parse(Message);
+                  //ShowLogPanel(vis);
+                  break;
+                case eAppEvent.eReDraw: // redraw the 3d display
+                  //DisplayFunc();
+                  ctl3DView1.UpdateView();
+                  break;
+                case eAppEvent.eReDraw2D: // redraw the 2d layer of the 3d display
+                  ctl3DView1.UpdateView(false);
+                  break;
+                case eAppEvent.eShowBlank:
+                  //showBlankDLP();
+                  DisplayManager.Instance().showBlankDLPs();
+                  break;
+                case eAppEvent.eShowCalib:
+                  //showCalibrationToolStripMenuItem_Click(null, null);
+                  break;
+                case eAppEvent.eShowDLP:
+                  DisplayManager.Instance().ShowDLPScreens();
+                  break;
+                case eAppEvent.eHideDLP:
+                  DisplayManager.Instance().HideDLPScreens();
+                  break;
+                case eAppEvent.eMachineConnected:
+                  DisplayManager.Instance().showBlankDLPs();
+                  break;
+                case eAppEvent.eMachineDisconnected:
+                  break;
+                case eAppEvent.eSceneFileNameChanged:
+                  SetTitle();
+                  break;
+
+                case eAppEvent.eSlicedLoaded: // update the gui to view
+                  try // this is also called when the slice PROFILE is loaded
+                  {
+                    DebugLogger.Instance().LogRecord(Message);
+                    if (UVDLPApp.Instance().m_slicefile != null)
+                    {
+                      int totallayers = UVDLPApp.Instance().m_slicefile.NumSlices;
+                      ctl3DView1.SetNumLayers(totallayers);
+                    }
+                  }
+                  catch (Exception ex) { }
+                  break;
+                case eAppEvent.eSliceProfileChanged:
+                  SetTitle();
+                  break;
+                case eAppEvent.eMachineTypeChanged:
+                  // FIXFIX : activate SetupForMachineType on 3dview control
+                  //SetupForMachineType();
+                  SetTitle();
+                  break;
+                /*
+      case eAppEvent.eGCodeLoaded:
+          DebugLogger.Instance().LogRecord(Message);
+          m_frmGCode.GcodeView.Text = UVDLPApp.Instance().m_gcode.RawGCode;
+          break;
+      case eAppEvent.eGCodeSaved:
+          DebugLogger.Instance().LogRecord(Message);
+          break;
+
+
+
+           * */
+              }
+              //Refresh();
+            }
+          }
+          catch (Exception ex)
+          {
+            DebugLogger.Instance().LogError(ex);
+          }
+
+        }
         
     }
 }

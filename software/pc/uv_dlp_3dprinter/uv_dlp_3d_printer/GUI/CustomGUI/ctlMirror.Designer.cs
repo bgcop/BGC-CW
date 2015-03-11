@@ -28,97 +28,97 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.lblX = new System.Windows.Forms.Label();
-            this.lblY = new System.Windows.Forms.Label();
-            this.lblZ = new System.Windows.Forms.Label();
-            this.ctlTitle1 = new UV_DLP_3D_Printer.GUI.CustomGUI.ctlTitle();
-            this.flowLayoutPanel1.SuspendLayout();
-            this.SuspendLayout();
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.flowLayoutPanel1.Controls.Add(this.lblX);
-            this.flowLayoutPanel1.Controls.Add(this.lblY);
-            this.flowLayoutPanel1.Controls.Add(this.lblZ);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 57);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(224, 59);
-            this.flowLayoutPanel1.TabIndex = 8;
-            // 
-            // lblX
-            // 
-            this.lblX.BackColor = System.Drawing.Color.Navy;
-            this.lblX.Font = new System.Drawing.Font("Courier New", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblX.ForeColor = System.Drawing.Color.White;
-            this.lblX.Location = new System.Drawing.Point(3, 3);
-            this.lblX.Margin = new System.Windows.Forms.Padding(3);
-            this.lblX.Name = "lblX";
-            this.lblX.Size = new System.Drawing.Size(50, 50);
-            this.lblX.TabIndex = 9;
-            this.lblX.Text = "X";
-            this.lblX.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblX.Click += new System.EventHandler(this.lblX_Click);
-            // 
-            // lblY
-            // 
-            this.lblY.BackColor = System.Drawing.Color.Navy;
-            this.lblY.Font = new System.Drawing.Font("Courier New", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblY.ForeColor = System.Drawing.Color.White;
-            this.lblY.Location = new System.Drawing.Point(59, 3);
-            this.lblY.Margin = new System.Windows.Forms.Padding(3);
-            this.lblY.Name = "lblY";
-            this.lblY.Size = new System.Drawing.Size(50, 50);
-            this.lblY.TabIndex = 10;
-            this.lblY.Text = "Y";
-            this.lblY.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblY.Click += new System.EventHandler(this.lblY_Click);
-            // 
-            // lblZ
-            // 
-            this.lblZ.BackColor = System.Drawing.Color.Navy;
-            this.lblZ.Font = new System.Drawing.Font("Courier New", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblZ.ForeColor = System.Drawing.Color.White;
-            this.lblZ.Location = new System.Drawing.Point(115, 3);
-            this.lblZ.Margin = new System.Windows.Forms.Padding(3);
-            this.lblZ.Name = "lblZ";
-            this.lblZ.Size = new System.Drawing.Size(50, 50);
-            this.lblZ.TabIndex = 11;
-            this.lblZ.Text = "Z";
-            this.lblZ.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblZ.Click += new System.EventHandler(this.lblZ_Click);
-            // 
-            // ctlTitle1
-            // 
-            this.ctlTitle1.BackColor = System.Drawing.Color.DarkBlue;
-            this.ctlTitle1.Checked = false;
-            this.ctlTitle1.CheckImage = global::UV_DLP_3D_Printer.Properties.Resources.buttStateTrig;
-            this.ctlTitle1.Gapx = 0;
-            this.ctlTitle1.Gapy = 0;
-            this.ctlTitle1.GLBackgroundImage = null;
-            this.ctlTitle1.GLVisible = false;
-            this.ctlTitle1.GuiAnchor = null;
-            this.ctlTitle1.Image = global::UV_DLP_3D_Printer.Properties.Resources.buttMirror;
-            this.ctlTitle1.Location = new System.Drawing.Point(0, 3);
-            this.ctlTitle1.Name = "ctlTitle1";
-            this.ctlTitle1.Size = new System.Drawing.Size(235, 45);
-            this.ctlTitle1.StyleName = null;
-            this.ctlTitle1.TabIndex = 7;
-            this.ctlTitle1.Text = "Mirror";
-            this.ctlTitle1.Click += new System.EventHandler(this.ctlTitle1_Click);
-            // 
-            // ctlMirror
-            // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.RoyalBlue;
-            this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.ctlTitle1);
-            this.Name = "ctlMirror";
-            this.Size = new System.Drawing.Size(242, 55);
-            this.Resize += new System.EventHandler(this.ctlMirror_Resize);
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.ResumeLayout(false);
+      this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+      this.lblX = new System.Windows.Forms.Label();
+      this.lblY = new System.Windows.Forms.Label();
+      this.lblZ = new System.Windows.Forms.Label();
+      this.ctlTitle1 = new UV_DLP_3D_Printer.GUI.CustomGUI.ctlTitle();
+      this.flowLayoutPanel1.SuspendLayout();
+      this.SuspendLayout();
+      // 
+      // flowLayoutPanel1
+      // 
+      this.flowLayoutPanel1.BackColor = System.Drawing.Color.RoyalBlue;
+      this.flowLayoutPanel1.Controls.Add(this.lblX);
+      this.flowLayoutPanel1.Controls.Add(this.lblY);
+      this.flowLayoutPanel1.Controls.Add(this.lblZ);
+      this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 57);
+      this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+      this.flowLayoutPanel1.Size = new System.Drawing.Size(224, 59);
+      this.flowLayoutPanel1.TabIndex = 8;
+      // 
+      // lblX
+      // 
+      this.lblX.BackColor = System.Drawing.Color.Navy;
+      this.lblX.Font = new System.Drawing.Font("Courier New", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.lblX.ForeColor = System.Drawing.Color.White;
+      this.lblX.Location = new System.Drawing.Point(3, 3);
+      this.lblX.Margin = new System.Windows.Forms.Padding(3);
+      this.lblX.Name = "lblX";
+      this.lblX.Size = new System.Drawing.Size(50, 50);
+      this.lblX.TabIndex = 9;
+      this.lblX.Text = "X";
+      this.lblX.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+      this.lblX.Click += new System.EventHandler(this.lblX_Click);
+      // 
+      // lblY
+      // 
+      this.lblY.BackColor = System.Drawing.Color.Navy;
+      this.lblY.Font = new System.Drawing.Font("Courier New", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.lblY.ForeColor = System.Drawing.Color.White;
+      this.lblY.Location = new System.Drawing.Point(59, 3);
+      this.lblY.Margin = new System.Windows.Forms.Padding(3);
+      this.lblY.Name = "lblY";
+      this.lblY.Size = new System.Drawing.Size(50, 50);
+      this.lblY.TabIndex = 10;
+      this.lblY.Text = "Y";
+      this.lblY.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+      this.lblY.Click += new System.EventHandler(this.lblY_Click);
+      // 
+      // lblZ
+      // 
+      this.lblZ.BackColor = System.Drawing.Color.Navy;
+      this.lblZ.Font = new System.Drawing.Font("Courier New", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.lblZ.ForeColor = System.Drawing.Color.White;
+      this.lblZ.Location = new System.Drawing.Point(115, 3);
+      this.lblZ.Margin = new System.Windows.Forms.Padding(3);
+      this.lblZ.Name = "lblZ";
+      this.lblZ.Size = new System.Drawing.Size(50, 50);
+      this.lblZ.TabIndex = 11;
+      this.lblZ.Text = "Z";
+      this.lblZ.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+      this.lblZ.Click += new System.EventHandler(this.lblZ_Click);
+      // 
+      // ctlTitle1
+      // 
+      this.ctlTitle1.BackColor = System.Drawing.Color.DarkBlue;
+      this.ctlTitle1.Checked = false;
+      this.ctlTitle1.CheckImage = global::UV_DLP_3D_Printer.Properties.Resources.buttStateTrig;
+      this.ctlTitle1.Gapx = 0;
+      this.ctlTitle1.Gapy = 0;
+      this.ctlTitle1.GLBackgroundImage = null;
+      this.ctlTitle1.GLVisible = false;
+      this.ctlTitle1.GuiAnchor = null;
+      this.ctlTitle1.Image = global::UV_DLP_3D_Printer.Properties.Resources.buttMirror;
+      this.ctlTitle1.Location = new System.Drawing.Point(0, 3);
+      this.ctlTitle1.Name = "ctlTitle1";
+      this.ctlTitle1.Size = new System.Drawing.Size(235, 45);
+      this.ctlTitle1.StyleName = null;
+      this.ctlTitle1.TabIndex = 7;
+      this.ctlTitle1.Text = "Mirror";
+      this.ctlTitle1.Click += new System.EventHandler(this.ctlTitle1_Click);
+      // 
+      // ctlMirror
+      // 
+      this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+      this.BackColor = System.Drawing.Color.RoyalBlue;
+      this.Controls.Add(this.flowLayoutPanel1);
+      this.Controls.Add(this.ctlTitle1);
+      this.Name = "ctlMirror";
+      this.Size = new System.Drawing.Size(242, 130);
+      this.Resize += new System.EventHandler(this.ctlMirror_Resize);
+      this.flowLayoutPanel1.ResumeLayout(false);
+      this.ResumeLayout(false);
 
         }
 
